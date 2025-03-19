@@ -1,0 +1,14 @@
+a. Summary stats by agency
+
+b. Product line: Commercial Line/Personal Line wise analysis
+
+c. Agency wise and state-wise distribution of Retention Ratio (Top 10)
+
+d. Hit ratio distribution across different Quotes-systems (also by PL/CL)
+
+e. Add a few more based on your understanding of the data
+
+Growth rates from 2006 to 2013 have to be computed and converted to independent attributes and included in the data for modeling.
+Compute Hit ratio based on bounds and quotes for each Quotes-system
+Compute required aggregations at Agency ID, state, and year
+Decide if binning the data works for this situation
