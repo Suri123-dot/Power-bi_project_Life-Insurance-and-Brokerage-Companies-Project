@@ -1,0 +1,28 @@
+Average Premium per Agency = 
+IF(
+    [Total Agency Count] = 0, 
+    0, 
+    [Total Written Premium Amount] / [Total Agency Count]
+)
+
+Average Premium Per Agency1 = DIVIDE([Total Premium], [Total Agency Count])
+
+Total Agencies = DISTINCTCOUNT(finalapi[AGENCY_ID])
+
+Total Agency Count = DISTINCTCOUNT([AGENCY_ID])
+
+Total Agency Count2 = DISTINCTCOUNT(finalapi[AGENCY_ID])
+
+Total Agency Count3 = DISTINCTCOUNT(finalapi[AGENCY_ID])
+
+Total Growth Rate 3-Year = SUM(finalapi[GROWTH_RATE_3YR])
+
+Total Premium = SUM(finalapi[WRTN_PREM_AMT])
+
+Total Premium Amount = SUM(finalapi[WRTN_PREM_AMT])
+
+Total Product Count = DISTINCTCOUNT(finalapi[PROD_LINE])
+
+Total Retention Ratio = SUM(finalapi[RETENTION_RATIO])
+
+Total Written Premium Amount = SUM(finalapi[WRTN_PREM_AMT])
